@@ -1,4 +1,4 @@
 FROM almalinux:9
 RUN mkdir /app
 WORKDIR /app
-RUN echo "iam AKHIL"
+RUN echo "iam AKHIL" > hello.txt
