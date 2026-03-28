@@ -3,5 +3,5 @@ RUN dnf install nginx -y
 #root access required to create user or install packages
 
 
-RUN useradd roboshop
+USER useradd roboshop
 CMD ["sleep","100"]
