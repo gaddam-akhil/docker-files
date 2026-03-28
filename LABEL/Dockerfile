@@ -1,0 +1,5 @@
+FROM almalinux:9
+LABEL NAME="GADDAM AKHIL" \
+      COURSE="DEVOPS WITH AWS" \
+      TRAINER="SHIVA KUMAR" \
+      DURATION="10Hrs"
